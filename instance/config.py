@@ -1,0 +1,2 @@
+NEWS_API_KEY = '11fc10d8188549cfad1539f1ad053fce'
+SECRET_KEY = 'vivioonana3698'
