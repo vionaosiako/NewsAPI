@@ -12,7 +12,11 @@
 + [Authors Info](#author-Info)
 + [Git Hub](#Git-Hub)
 ## Description
-
+Create an application that will enable use:
+* See various news sources on the homepage of the application.
+* Select a news source and see all news articles from the selected news source in the application.
+* See the image, description and the time a news article was created.
+* Click on an article and read the full article on the source website.
 
 ## Requirements
 * A computer
@@ -20,7 +24,9 @@
 * Internet
 
 ## Set up
-
+- Internet contection is neccessary.
+- Click the live link in the github.
+- Use the application.
 
 ## Technology Used
 * git 
