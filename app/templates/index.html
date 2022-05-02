@@ -6,11 +6,13 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
-    <div class="row">
-            <h3 align="center">News Sources</h3>
-            <div>{{ macro.displaySourcesList(sources)}}</div>
-    </div>          
+<div class="container-fluid">
+    <div class="container">
+        <h2 align='center'>Our News Sources</h2>
+        <div class="row">
+            {{ macro.displaySourcesList(sources) }}
+        </div>
+    </div>
 </div>
 
 {% endblock %}

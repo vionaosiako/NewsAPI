@@ -10,9 +10,8 @@ def index():
     '''
     #Getting news sources
     sources = get_sources()
-    title = 'News OTG'
 
-    return render_template('index.html',title = title, sources = sources)
+    return render_template('index.html', sources = sources)
 
 @main.route('/articles/<sources_id>')
 def articles(sources_id):
