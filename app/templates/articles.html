@@ -2,10 +2,12 @@
 {% import 'macros.html' as macro%}
 
 {% block content %}
-<div class="container">
-    <h2 align='center'>Articles Available</h2>
-    <div class="row">
-        {{ macro.displayArticlesList(articles) }}
+<div class="container-fluid bg-info">
+    <div class="container">
+        <h2 class="text-center">Articles Available</h2>
+        <div class="row">
+            {{ macro.displayArticlesList(articles) }}
+        </div>
     </div>
 </div>
 {% endblock %}

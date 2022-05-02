@@ -1,12 +1,14 @@
 {% macro displaySourcesList(sources_list) %}
 
     {% for sources in sources_list %}
-    <div class ="card mt-3 col-lg-6 bg-info" style="padding: 10px;">
-        <h4 class="text-center">{{sources.name}}</h4>
-        <p>{{sources.description}}</p>
-        <p id="cat">category: {{sources.category}}</p>
-        <a class ="btn btn-dark" href="/articles/{{sources.id}}">View</a>
-    </div>
+    <div class="col-lg-6 mt-3">
+        <div class ="card bg-info" style="padding: 10px;">
+            <h4 class="text-center">{{sources.name}}</h4>
+            <p>{{sources.description}}</p>
+            <p id="cat">category: {{sources.category}}</p>
+            <a class ="btn btn-dark" href="/articles/{{sources.id}}">View</a>
+        </div>
+    </div>    
     
     {% endfor %}
 
@@ -16,7 +18,7 @@
 
     {% for articles in articles_list %}
 
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-3">
         <div class="card">
             {% if articles.urlToImage %}
             <img src="{{ articles.content }}" height="300" width="525" alt="">
