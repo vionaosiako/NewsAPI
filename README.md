@@ -1,5 +1,3 @@
-# NewsAPI
-
 # UhondoNewsAPI
 
 ## Table of Content
