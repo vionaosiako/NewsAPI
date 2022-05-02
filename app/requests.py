@@ -1,7 +1,5 @@
 import urllib.request,json
 from .models import Sources, Articles
-
-
 # Getting api key
 api_key = None
 # Getting the news base url
@@ -70,8 +68,7 @@ def process_articles(articles_list):
         author = articles_item.get('author')
         publishedAt = articles_item.get('publishedAt')
         url = articles_item.get('url')
-        # import pdb
-        # pdb.set_trace()
+        
         if title:
             articles_object = Articles(title,content,urlToImage,author,publishedAt,url)
             articles_results.append(articles_object)
